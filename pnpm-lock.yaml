@@ -9,8 +9,8 @@ dependencies:
     specifier: ^10.6.1
     version: 10.6.1(vue@3.3.8)
   manatsu:
-    specifier: ^0.1.7
-    version: 0.1.7
+    specifier: ^0.1.12
+    version: 0.1.12
   vue:
     specifier: ^3.3.8
     version: 3.3.8(typescript@5.3.2)
@@ -656,6 +656,10 @@ packages:
       '@jridgewell/resolve-uri': 3.1.1
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
+
+  /@manatsu/components@0.1.12:
+    resolution: {integrity: sha512-iUO6rmRpn5/OA9ah8rDRktl+lpzr+FTEN4hnsJQ779ezeWE1yLCBD14IJqNW3jPm5aLA2F4550bBUvjwKyI15g==}
+    dev: false
 
   /@npmcli/agent@2.2.0:
     resolution: {integrity: sha512-2yThA1Es98orMkpSLVqlDZAMPK3jHJhifP2gnNUdk1754uZ8yI5c+ulCoVG+WlntQA6MzhrURMXjSd9Z7dJ2/Q==}
@@ -2089,9 +2093,11 @@ packages:
       - supports-color
     dev: true
 
-  /manatsu@0.1.7:
-    resolution: {integrity: sha512-vGD4vZg3XmfX6QdhB6yA2qlNTSzmXEg1YhFl1fQB9FvZAr6fRFRhf/zBcGNOGd4NLhsQiOS/EAPIAppSHvUrpA==}
+  /manatsu@0.1.12:
+    resolution: {integrity: sha512-Z81QSFUNhEfZvTG8RyuIYswjFg9nsy5THg6xJCmulplDHGV3/jiCw2gSsGQaQb7gBSmpMnf2bFWPsZQuRoPLqQ==}
     engines: {node: '>=18'}
+    dependencies:
+      '@manatsu/components': 0.1.12
     dev: false
 
   /memorystream@0.3.1:
