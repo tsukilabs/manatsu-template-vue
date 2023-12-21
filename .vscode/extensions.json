@@ -1,9 +1,14 @@
 {
   "recommendations": [
     "vivaxy.vscode-conventional-commits",
+    "dbaeumer.vscode-eslint",
+    "donjayamanne.githistory",
+    "github.vscode-github-actions",
     "github.vscode-pull-request-github",
-    "vscode-icons-team.vscode-icons",
     "esbenp.prettier-vscode",
-    "github.vscode-github-actions"
+    "vue.vscode-typescript-vue-plugin",
+    "vscode-icons-team.vscode-icons",
+    "vue.volar",
+    "redhat.vscode-yaml"
   ]
 }

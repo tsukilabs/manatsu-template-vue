@@ -1,11 +1,11 @@
-import '@/assets/style.css';
+import 'manatsu/style';
+import './assets/style.css';
 import { createApp } from 'vue';
-import { router } from '@/router';
-import App from '@/App.vue';
+import { createManatsu } from 'manatsu';
+import App from './App.vue';
 
 const app = createApp(App);
+const manatsu = createManatsu();
 
-// Plugins.
-app.use(router);
-
+app.use(manatsu);
 app.mount('#app');

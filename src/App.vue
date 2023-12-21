@@ -1,17 +1,14 @@
 <script setup lang="ts">
-import { RouterView } from 'vue-router';
+import { MNavbar, MScaffold } from 'manatsu';
+import MainView from './views/MainView.vue';
 </script>
 
 <template>
-  <main>
-    <RouterView #default="{ Component }">
-      <template v-if="Component">
-        <Transition name="fade" mode="out-in">
-          <Suspense>
-            <component :is="Component" />
-          </Suspense>
-        </Transition>
-      </template>
-    </RouterView>
-  </main>
+  <MScaffold navbar>
+    <template #navbar>
+      <MNavbar title="Hello, Manatsu!" />
+    </template>
+
+    <MainView />
+  </MScaffold>
 </template>
