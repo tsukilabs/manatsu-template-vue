@@ -1,7 +1,10 @@
-```
-pnpm create manatsu@latest
+```bash
+cargo install manatsu
+manatsu create my-project
 ```
 
 ## License
 
-[MIT](https://github.com/manatsujs/template-vue/blob/main/LICENSE)
+[MIT](https://raw.githubusercontent.com/manatsujs/manatsu/main/LICENSE)
+
+Copyright (c) 2023 Andrew Ferreira
