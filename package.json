@@ -23,7 +23,7 @@
   "dependencies": {
     "@vueuse/core": "^10.7.1",
     "manatsu": "^0.1.46",
-    "vue": "^3.3.13"
+    "vue": "^3.4.3"
   },
   "devDependencies": {
     "@tb-dev/eslint-config": "^1.5.8",
