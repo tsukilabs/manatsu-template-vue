@@ -1,6 +1,6 @@
 ```bash
 cargo install manatsu
-manatsu create my-project
+manatsu create
 ```
 
 ## License
