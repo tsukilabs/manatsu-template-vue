@@ -1,12 +1,12 @@
 {
   "name": "template-vue",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Vue template for Manatsu",
   "type": "module",
-  "packageManager": "pnpm@8.13.1",
+  "packageManager": "pnpm@8.14.0",
   "private": true,
   "lint-staged": {
-    "*.{?(c|m)@(j|t)s,css,vue,md,json}": "prettier --write",
+    "*.{?(c|m)@(j|t)s,css,vue,md,json,yaml}": "prettier --write",
     "*.{?(c|m)@(j|t)s,vue}": "pnpm lint"
   },
   "scripts": {
@@ -22,8 +22,8 @@
   },
   "dependencies": {
     "@vueuse/core": "^10.7.1",
-    "manatsu": "^0.1.46",
-    "vue": "^3.4.3"
+    "manatsu": "^0.1.62",
+    "vue": "^3.4.5"
   },
   "devDependencies": {
     "@tb-dev/eslint-config": "^1.5.8",

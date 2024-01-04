@@ -4,8 +4,8 @@ import MainView from './views/MainView.vue';
 </script>
 
 <template>
-  <MScaffold navbar>
-    <template #navbar>
+  <MScaffold>
+    <template #header>
       <MNavbar title="Hello, Manatsu!" />
     </template>
 
