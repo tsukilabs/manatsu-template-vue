@@ -27,4 +27,5 @@ target/
 # Others
 coverage/
 .eslintcache
+.stylelintcache
 config.json
