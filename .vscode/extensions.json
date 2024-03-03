@@ -6,10 +6,9 @@
     "github.vscode-github-actions",
     "github.vscode-pull-request-github",
     "esbenp.prettier-vscode",
-    "bradlc.vscode-tailwindcss",
-    "vue.vscode-typescript-vue-plugin",
-    "vscode-icons-team.vscode-icons",
     "vue.volar",
-    "redhat.vscode-yaml"
+    "vscode-icons-team.vscode-icons",
+    "redhat.vscode-yaml",
+    "bradlc.vscode-tailwindcss"
   ]
 }
