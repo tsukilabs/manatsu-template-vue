@@ -6,7 +6,7 @@ const darkMode = useDarkMode();
 
 <template>
   <MScaffold default-border="none">
-    <template #top-bar>
+    <template #top>
       <MTopAppbar title="Hello, Manatsu!">
         <template #end>
           <MButton variant="outlined" @click="$mana.toggleDarkMode()">
