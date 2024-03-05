@@ -1,7 +1,8 @@
 <script setup lang="ts">
-import { MButton, MScaffold, MTopAppbar, useDarkMode } from 'manatsu';
+import { inject } from 'vue';
+import { MButton, MScaffold, MTopAppbar, symbols } from 'manatsu';
 
-const darkMode = useDarkMode();
+const darkMode = inject(symbols.darkMode);
 </script>
 
 <template>
