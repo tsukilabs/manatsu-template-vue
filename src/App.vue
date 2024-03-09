@@ -6,28 +6,28 @@ const darkMode = inject(symbols.darkMode);
 </script>
 
 <template>
-  <MScaffold default-border="none">
+  <m-scaffold default-border="none">
     <template #top>
-      <MTopAppbar title="Hello, Manatsu!">
+      <m-top-appbar title="Hello, Manatsu!">
         <template #end>
-          <MButton variant="outlined" @click="$mana.toggleDarkMode()">
+          <m-button variant="outlined" @click="$mana.toggleDarkMode()">
             {{ darkMode ? 'Light' : 'Dark' }}
-          </MButton>
+          </m-button>
         </template>
-      </MTopAppbar>
+      </m-top-appbar>
     </template>
 
-    <RouterView #default="{ Component }">
+    <router-view #default="{ Component }">
       <template v-if="Component">
-        <Transition mode="out-in">
-          <KeepAlive>
-            <Suspense>
+        <transition mode="out-in">
+          <keep-alive>
+            <suspense>
               <component :is="Component" />
               <template #fallback>Loading...</template>
-            </Suspense>
-          </KeepAlive>
-        </Transition>
+            </suspense>
+          </keep-alive>
+        </transition>
       </template>
-    </RouterView>
-  </MScaffold>
+    </router-view>
+  </m-scaffold>
 </template>

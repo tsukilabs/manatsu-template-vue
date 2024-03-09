@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import MyButton from '../components/MyButton.vue';
+import MyButton from '@/components/MyButton.vue';
 </script>
 
 <template>
   <main>
-    <MyButton />
+    <my-button />
   </main>
 </template>
 

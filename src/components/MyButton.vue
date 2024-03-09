@@ -3,5 +3,5 @@ import { MButton } from 'manatsu';
 </script>
 
 <template>
-  <MButton>Hello World!</MButton>
+  <m-button>Hello World!</m-button>
 </template>
