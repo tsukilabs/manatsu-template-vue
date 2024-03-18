@@ -12,6 +12,7 @@
   "vueIndentScriptAndStyle": false,
   "tailwindFunctions": ["tw"],
   "tailwindAttributes": [
+    "class",
     "body-class",
     "bottom-class",
     "center-class",

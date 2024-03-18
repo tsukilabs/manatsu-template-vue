@@ -1,6 +1,4 @@
-<script setup lang="ts">
-import MyButton from '@/components/MyButton.vue';
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <main>

@@ -13,6 +13,7 @@
     ".stylelintcache": true
   },
   "tailwindCSS.classAttributes": [
+    "class",
     "body-class",
     "bottom-class",
     "center-class",
