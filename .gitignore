@@ -25,6 +25,7 @@ target/
 *.pdb
 
 # Others
+**/*vite*timestamp*
 coverage/
 .eslintcache
 .stylelintcache

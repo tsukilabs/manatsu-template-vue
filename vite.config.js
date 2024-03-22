@@ -8,7 +8,11 @@ import componentsConfig from '@tb-dev/vue-import-config';
 import autoImportConfig from '@tb-dev/auto-import-config';
 
 const autoImportOptions = autoImportConfig({
-  manatsu: true
+  presets: {
+    manatsu: true,
+    manatsuStyle: true,
+    vueuseRouter: true
+  }
 });
 
 export default defineConfig({
